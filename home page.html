@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avantika Bisht Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bg-custom {
+            background-color: #3D73A6; /* Custom orange */
+        }
+        .bg-whole {
+            background-color: #F9F2EA;
+        }
+
+        .subhead { 
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
+
+        .box {
+  position: relative;
+ 
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #AB0104;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.textimage {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    </style>
+</head>
+<body class="bg-whole">
+    <div class="container-fluid my-2 ">
+        <!-- Navigation -->
+        <div class="d-flex justify-content-end mb-3">
+            <a href="about me.html" class="text-danger fw-bold me-3 text-decoration-none subhead fs-4">About</a>
+            <a href="contact.html" class="text-danger fw-bold me-3 text-decoration-none subhead fs-4">Contact</a>
+            <a href="home page.html" class="text-danger fw-bold text-decoration-none subhead fs-4">Home</a>
+                
+        </div>
+
+        <!-- Hero Section -->
+        <div class="bg-custom text-white rounded-3 p-5 position-relative ">
+            <div class="row">
+                <!-- Profile Image -->
+                <div class="col-md-5 d-flex justify-content-end align-items-end">
+                    <img src="profile.jpg" alt="Profile Photo" class="img-fluid float-end rounded-circle  " style="width: 50%; height:auto;">
+                </div>
+
+                <!-- Hero Text -->
+                <div class="col-md-7 align-content-center">
+                    <h1 class="fw-semibold subhead">Hi!</h1>
+                    <h2 class="fw-semibold subhead">I'm Avantika Bisht</h2>
+                    <p class="lead">
+                        I am a communication design student at ISDI, Atlas Skilltech University
+                    </p>
+                    <a href="about me.html" class="btn btn-danger text-white fw-bold">Get to know more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="container py-3">
+        <div class="row g-3">
+            <!-- Image 1 -->
+             
+            <div class=" box col-md-6 col-sm-6">
+                <a href="cookbook.html"> 
+                    <img src="sp 2.png" class="image" alt="Portfolio Item 1">
+                <div class="overlay">
+                    <div class="textimage">Sunny Side Breakfast Cookbook</div>
+                  </div>
+                </a>
+            </div>
+            <!-- Image 2 -->
+            <div class=" box col-md-6 col-sm-6">
+                <a href="contructivism.html">
+                    <img src="Free_Book_Mockup_7.png" class="img-fluid rounded" alt="Portfolio Item 2">
+                <div class="overlay">
+                    <div class="textimage">Glossary-Constructivism</div>
+                  </div>
+                </a>
+            </div>
+            <!-- Image 3 -->
+            <div class=" box col-md-5 col-sm-6">
+              <a href="parachute.html"> 
+                <img src="mock 1.png" class="img-fluid rounded" alt="Portfolio Item 3" > 
+                <div class="overlay">
+                    <div class="textimage">Parachute Jasmine Rebranding</div>
+                
+                  </div>
+              </a>
+            </div>
+            <!-- Image 4 -->
+            <div class="box col-md-4 col-sm-6">
+                <a href="sahaas.html">
+                    <img src="sahaas .jpg" class="img-fluid rounded" alt="Portfolio Item 4">
+                <div class="overlay">
+                    <div class="textimage">Sahaas</div>
+                  </div>
+                </a>
+            </div>
+            <!-- Image 5 -->
+            <div class="box col-md-3 col-sm-6">
+                <a href="izumi.html">
+                    <img src="izumi 2.png" class="img-fluid rounded" alt="Portfolio Item 5">
+                <div class="overlay">
+                    <div class="textimage">Izumi Sake</div>
+                  </div>
+                </a>
+            </div>
+            <!-- Image 6 -->
+            <div class="box col-md-6 col-sm-6">
+                <a href="vinyl.html">
+                    <img src="Fancy mockup.jpg" class="img-fluid rounded" alt="Portfolio Item 6">
+                <div class="overlay">
+                    <div class="textimage">Vinyl Cover Redesign</div>
+                  </div>
+                </a>
+            </div>
+            <!-- Image 7 -->
+            <div class="box col-md-6 col-sm-6">
+               <a href="Poster Series.html">
+                <img src="mock up 2.png" class="img-fluid rounded" alt="Portfolio Item 7">
+                <div class="overlay">
+                    <div class="textimage">Poster Series</div>
+                  </div>
+               </a>
+            </div>
+            <!-- Image 8 -->
+           
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
